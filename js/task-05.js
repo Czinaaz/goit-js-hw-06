@@ -3,7 +3,7 @@ const outputItem = document.getElementById('name-output');
 
 inputItem.addEventListener('input', updateOutput);
 
-function inputItem(){
+function updateOutput(){
     if (inputItem.value === ''){
         outputItem.textContent ="Anonymous";
     } else {
