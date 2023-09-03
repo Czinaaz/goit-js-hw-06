@@ -13,6 +13,6 @@ categoryItems.forEach(categoryItem => {
   const numberOfElements = categoryElements.length;
   
  
-  console.log(`Category: ${categoryTitle}`);
-  console.log(`Elements: ${numberOfElements}`);
+  console.log('Category:', categoryTitle);
+  console.log('Elements:', numberOfElements);
 });
