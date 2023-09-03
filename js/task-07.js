@@ -5,7 +5,7 @@ const textItem = document.getElementById('text')
 
 inputItem.addEventListener('input', knockItem);
 
-function knockItem(){
-    const knockItemValue = inputItem.value;
+function knockItem(event){
+    const knockItemValue = event.target.value;
     textItem.style.fontSize = knockItemValue + "px";
 }
